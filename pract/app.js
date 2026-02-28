@@ -1,4 +1,4 @@
-import { generateBooks } from './scripts/bookGenerator.js';
+import { generateBooks } from './script/bookGenerator.js';
 
 // Основное хранилище данных — массив объектов книг
 let books = [];
@@ -139,6 +139,7 @@ document.getElementById('export').addEventListener('click', () => {
 });
 // Запуск начальной загрузки данных при открытии страницы
 loadBooks();
+
 
 
 
